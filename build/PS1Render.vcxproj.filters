@@ -7,6 +7,18 @@
     <ClCompile Include="C:\Users\bubab\Documents\PS1 render by Cususina\src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\bubab\Documents\PS1 render by Cususina\src\VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bubab\Documents\PS1 render by Cususina\src\VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bubab\Documents\PS1 render by Cususina\src\EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\bubab\Documents\PS1 render by Cususina\src\shaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\bubab\Documents\PS1 render by Cususina\CMakeLists.txt" />

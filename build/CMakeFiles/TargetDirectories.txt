@@ -1,3 +1,0 @@
-C:/Users/bubab/Documents/PS1 render by Cususina/build/CMakeFiles/PS1Render.dir
-C:/Users/bubab/Documents/PS1 render by Cususina/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/bubab/Documents/PS1 render by Cususina/build/CMakeFiles/ZERO_CHECK.dir

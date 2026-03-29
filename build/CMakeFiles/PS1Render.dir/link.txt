@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\PS1Render.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\PS1Render.dir/objects.a @CMakeFiles\PS1Render.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PS1Render.dir/objects.a -Wl,--no-whole-archive -o PS1Render.exe -Wl,--out-implib,libPS1Render.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PS1Render.dir\linkLibs.rsp

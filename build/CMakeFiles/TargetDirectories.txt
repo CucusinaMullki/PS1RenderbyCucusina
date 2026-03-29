@@ -1,0 +1,3 @@
+C:/Users/bubab/Documents/PS1 render by Cususina/build/CMakeFiles/PS1Render.dir
+C:/Users/bubab/Documents/PS1 render by Cususina/build/CMakeFiles/edit_cache.dir
+C:/Users/bubab/Documents/PS1 render by Cususina/build/CMakeFiles/rebuild_cache.dir

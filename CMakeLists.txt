@@ -10,6 +10,8 @@ add_executable(PS1Render
     src/VBO.cpp
     src/EBO.cpp
     src/shaderClass.cpp
+    src/Texture.cpp
+    src/stb_image.cpp
 )
 
 target_include_directories(PS1Render PRIVATE

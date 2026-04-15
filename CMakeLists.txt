@@ -12,6 +12,10 @@ add_executable(PS1Render
     src/shaderClass.cpp
     src/Texture.cpp
     src/stb_image.cpp
+    src/Object3D.cpp
+    src/Mesh.cpp
+    src/Camera.cpp
+    src/Transform3D.cpp
 )
 
 target_include_directories(PS1Render PRIVATE

@@ -15,8 +15,6 @@ cmake --build .
 #next go to folder debug and run file
 cd debug
 ./ps1render
-
-This program work with MSVC compiler
 ```
 To run my render you need do this command:
 ```bash

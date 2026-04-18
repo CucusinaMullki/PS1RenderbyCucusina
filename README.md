@@ -33,7 +33,7 @@ cmake --build .
 cd debug
 ./ps1render
 ```
-For upload your model you need in main write this:
+To upload your model you need in main write this:
 
 1 import yout model in folder Asset
 2 write this in main:

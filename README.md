@@ -17,7 +17,7 @@ cd debug
 ./ps1render
 
 This program work with MSVC compiler
-
+```
 For run my render you need do this command:
 ```bash
 #go to glm folder and install glm library

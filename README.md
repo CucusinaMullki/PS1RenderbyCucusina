@@ -1,6 +1,6 @@
 # This project was made to show how is working ps1 Render piplyne.
 
-Ps1 model model drawing is not same like standart 3D work. Ps1's GPU could draw only 300000 polygons. This is very important.
+This program work for MSVC compiler
 
 For run my render you need do this command:
 ```bash

@@ -1,7 +1,7 @@
 
 This program work with MSVC compiler
 
-For run my render you need do this command:
+To run my render you need do this command:
 ```bash
 #go to glm folder and install glm library
 cd include/glm
@@ -18,7 +18,7 @@ cd debug
 
 This program work with MSVC compiler
 ```
-For run my render you need do this command:
+To run my render you need do this command:
 ```bash
 #go to glm folder and install glm library
 cd include/glm

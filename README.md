@@ -4,7 +4,7 @@ This program work with MSVC compiler
 To run my render you need do this command:
 ```bash
 #go to glm folder and install glm library
-cd include/glm
+cd include
 #next intall glm source code
 git clone https://github.com/g-truc/glm
 #next leave include directory and make folder build

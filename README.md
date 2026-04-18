@@ -1,6 +1,6 @@
 # This project was made to show how is working ps1 Render piplyne.
 
-This program work for MSVC compiler
+This program work with MSVC compiler
 
 For run my render you need do this command:
 ```bash

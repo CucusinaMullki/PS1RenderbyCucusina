@@ -10,11 +10,15 @@ uniform float snapStrength;
 
 out vec2 fragUV;
 out vec3 fragNormal;
+out vec3 fragPos;      // ← добавить
 
 void main() {
-    vec4 clipPos = proj * view * model * vec4(position, 1.0);
+    vec4 worldPos = model * vec4(position, 1.0);
+    fragPos    = worldPos.xyz;   // ← мировая позиция фрагмента
 
-    // PS1 vertex snap
+    vec4 clipPos = proj * view * worldPos;
+
+    // PS1 snap
     vec2 ndc = clipPos.xy / clipPos.w;
     ndc = floor(ndc * snapStrength) / snapStrength;
     clipPos.xy = ndc * clipPos.w;

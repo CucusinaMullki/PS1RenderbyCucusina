@@ -37,9 +37,6 @@ void Camera::updateMatrices() {
         glm::radians(fov), (float)screenW / screenH,
         nearPlane, farPlane
     );
-
-    std::cout << "View Matrix: " << glm::to_string(viewMatrix) << std::endl;
-    std::cout << "Proj Matrix: " << glm::to_string(projMatrix) << std::endl;
 }
 
 void Camera::handleKeybourde(GLFWwindow* window, float deltaTime) {

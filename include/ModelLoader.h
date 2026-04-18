@@ -40,24 +40,20 @@ public:
         std::unordered_map<std::string, GLuint> uniqueVertices;
 
         for (const auto& idx : shape.mesh.indices) {
-            // Формируем уникальный ключ для вершины (позиция + UV + нормаль)
             std::string key =
                 std::to_string(idx.vertex_index) + "|" +
                 std::to_string(idx.texcoord_index) + "|" +
                 std::to_string(idx.normal_index);
 
-            // Если вершина ещё не добавлена, создаём её
             if (uniqueVertices.find(key) == uniqueVertices.end()) {
                 Vertex v{};
 
-                // Позиция
                 v.position = {
                     attrib.vertices[3 * idx.vertex_index + 0],
                     attrib.vertices[3 * idx.vertex_index + 1],
                     attrib.vertices[3 * idx.vertex_index + 2]
                 };
 
-                // Текстурные координаты
                 if (idx.texcoord_index >= 0) {
                     v.uv = {
                         attrib.texcoords[2 * idx.texcoord_index + 0],

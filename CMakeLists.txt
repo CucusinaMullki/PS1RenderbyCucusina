@@ -16,6 +16,7 @@ add_executable(PS1Render
     src/Mesh.cpp
     src/Camera.cpp
     src/Transform3D.cpp
+    src/PointLight.cpp
 )
 
 target_include_directories(PS1Render PRIVATE
